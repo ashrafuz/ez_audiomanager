@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27cf866da575e40538ec42b2f4de3020, type: 3}
+  m_Name: EzAudioBook
+  m_EditorClassIdentifier: 
+  audioBook:
+  - index: 0
+    rawEnum: 0
+    fullPath: Assets/EzAudioManager/Demo/xit.mp3
+    fileNameWithoutExtension: xit
+    audioClip: {fileID: 8300000, guid: 8b03ce7e1cde0fb4da4bb6f3ed85ce3c, type: 3}
+  - index: 1
+    rawEnum: 1
+    fullPath: Assets/EzAudioManager/Demo/zern#@__.mp3
+    fileNameWithoutExtension: zern#@__
+    audioClip: {fileID: 8300000, guid: 03d5677c04b322046ac35e24d6a611da, type: 3}
