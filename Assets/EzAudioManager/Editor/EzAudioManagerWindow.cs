@@ -42,6 +42,12 @@ namespace EzAudio {
             consoleLogText.Clear ();
 
             string[] guids = AssetDatabase.FindAssets ("t:audioClip");
+            if (guids.Length == 0){
+                Debug.LogError("No Sound file found in the project!");
+                consoleLogText.Append("No Sound file found in the project!");
+                return;
+            }
+            
             foreach (string guid in guids) {
                 string fname = AssetDatabase.GUIDToAssetPath (guid);
                 allAudioAssetName.Add (fname);
@@ -66,7 +72,7 @@ namespace EzAudio {
                 AssetDatabase.SaveAssets ();
                 AssetDatabase.Refresh ();
 
-                consoleLogText.Append ("\n\nOperation Successful!! \nNow you can use EzAudioFiles.FILE_NAME to get all sound files.Please see EzAudioSample.scene to see how to use it.\n\n");
+                consoleLogText.Append ("\n\nOperation Successful!! \nNow you can use EzAudioFiles.FILE_NAME to get all sound files.\n\nPlease see EzAudioSample.scene to see how to use it.\n\n");
 
                 //EditorUtility.FocusProjectWindow ();
                 Selection.activeObject = ezbook;
