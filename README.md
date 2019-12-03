@@ -18,7 +18,9 @@ This project turns all your audio files in Enum as part of a scriptable object!
 
 ## Common Concerns:
 
-1. If filename cannot be turned as an identifier, then it will have `INVALID_NAME_X`, x will be a number ofcourse. If you want to investigate further, go to `EzAudioManager/EzAudioFiles./cs`. You will see which files is invalidated due to bad name. 
+1. If filename cannot be turned as an identifier, then it will have `INVALID_NAME_X` where x will be a number ofcourse. 
+
+If you want to investigate further, go to `EzAudioManager/EzAudioFiles.cs`. You will see which files is invalidated due to bad name. 
 (You are welcome! :P )
 
 2. If same filename found in multiple places, same thing will happen, it will be marked as `INVALID_NAME_X`
