@@ -34,7 +34,7 @@ namespace EzAudio {
             mSourcePool.Add (gAudio.AddComponent<AudioSource> ());
         }
 
-        private AudioSource GetFreeAudioSource () {
+        public AudioSource GetFreeAudioSource () {
             //if there is a free source return it
             foreach (var item in mSourcePool) {
                 if (!item.isPlaying) { return item; }
@@ -54,6 +54,10 @@ namespace EzAudio {
 
         public void PlayClip (EzAudioFiles _filename, float _volume = 1) {
             GetFreeAudioSource ().PlayOneShot (mEzBook.GetClip (_filename), _volume);
+        }
+
+        public AudioClip GetClip (EzAudioFiles _filename){
+            return mEzBook.GetClip(_filename);
         }
     }
 }
