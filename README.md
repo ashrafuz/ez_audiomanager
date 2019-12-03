@@ -16,7 +16,7 @@ This project turns all your audio files in Enum as part of a scriptable object!
 `EzAudio.EzAudioSystem.instance.PlayClip(EzAudioFiles.XIT);`
 
 
-## Common Concerns:
+### Common Concerns:
 
 1. If filename cannot be turned as an identifier, then it will have `INVALID_NAME_X` where x will be a number ofcourse. 
 
@@ -24,6 +24,7 @@ If you want to investigate further, go to `EzAudioManager/EzAudioFiles.cs`. You 
 (You are welcome! :P )
 
 2. If same filename found in multiple places, same thing will happen, it will be marked as `INVALID_NAME_X`
+3. Spaces in file names will be replaced by underscore
 
 ## Improvement Points:
 1. Optimize for Background and other musics, which are not necessarily played with PlayOneShot function.
