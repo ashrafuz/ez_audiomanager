@@ -36,3 +36,5 @@ If you want to investigate further, go to `EzAudioManager/EzAudioFiles.cs`. You 
 Thanks!
 
 My twitter `@game_auz`
+
+Thanks to my company **Ulka Games** who give me enough freedom to publish these kind of things.
