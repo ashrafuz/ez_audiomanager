@@ -1,5 +1,5 @@
 ## Attention
-Please bear in mind that it will load all sound asset in one scriptable object file. So if you have a lot of sounds, this system might add some overhead in memory & you might have to do some tweaks on yourself to load only necessary sounds by scene. I will try to do it eventually when I get time.
+Please bear in mind that it will load all sound asset in one scriptable object file. So if you have a lot of sounds, this system might add some overhead in memory & you might have to do some tweaks on yourself to load only necessary sounds by scene. I will try to do it eventually when I get time. Nevertheless, if you are making a game where you don't have issue with loading all sound files in memory (like a casual game for example), this system will help you I am sure of it.
 
 # Hello!
 In unity we mostly use audio as PlayOneShot most of the time. As we all know, PlayOneShot takes file name as params. But managing file name via string => YUCK!
