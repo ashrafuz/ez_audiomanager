@@ -1,4 +1,5 @@
 ## Attention
+### Bear in mind that if you hate Singleton, you might hate my example too. But at the very least, I hope it gives you an idea of  what can be done and what not with sound assets.
 Please bear in mind that it will load all sound asset in one scriptable object file. So if you have a lot of sounds, this system might add some overhead in memory & you might have to do some tweaks on yourself to load only necessary sounds by scene. I will try to do it eventually when I get time. Nevertheless, if you are making a game where you don't have issue with loading all sound files in memory (like a casual game for example), this system will help you I am sure of it.
 
 # Hello!
