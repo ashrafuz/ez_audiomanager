@@ -37,8 +37,5 @@ If you want to investigate further, go to `EzAudioManager/EzAudioFiles.cs`. You 
 ### License & Policy
 ### Do whatever you want with it. I hope it will help you in your project!
 
-Thanks!
-
-My twitter `@game_auz`
-
-Thanks to my company **Ulka Games** who give me enough freedom to publish these kind of things.
+Thanks! Happy coding!
+--- `@game_auz`
