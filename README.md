@@ -3,8 +3,8 @@ In unity we mostly use audio as PlayOneShot most of the time. As we all know, Pl
 
 This project turns all your audio files in Enum as part of a scriptable object!
 
-## Attention
-### Bear in mind that if you hate Singleton, you might hate my example too. But at the very least, I hope it gives you an idea of  what can be done and what not with sound assets.
+### Attention
+Bear in mind that if you hate Singleton, you might hate my example too. But at the very least, I hope it gives you an idea of  what can be done and what not with sound assets.
 
 # Usage: 
 (Make sure you have at least one audio file in project!)
